@@ -2,11 +2,11 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if (mySrc === '../images/web.png') {
-        myImage.setAttribute('src','../images/html-css-js.png');
+    if (mySrc === 'images/web.png') {
+        myImage.setAttribute('src','images/html-css-js.png');
     }
     else {
-        myImage.setAttribute('src','../images/web.png');
+        myImage.setAttribute('src','images/web.png');
     }
 }
 var myButton = document.querySelector('button');
